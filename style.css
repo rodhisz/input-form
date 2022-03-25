@@ -1,0 +1,59 @@
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 0%, #e0c3fc 100% );
+
+}
+
+input[type=text] {
+    padding: 10px;
+    margin: 10px, 0;
+    box-shadow: 0 0 15px 4px rbga(0,0,0,0,0.6) ;
+    border-radius: 10px;
+    border: 2px solid #eee;
+}
+
+input[type=password] {
+    padding: 10px;
+    margin: 10px, 0;
+    box-shadow: 0 0 15px 4px rbga(0,0,0,0,0.6) ;
+    border-radius: 10px;
+    border: 2px solid #eee;
+}
+
+input[type=email] {
+    padding: 10px;
+    margin: 10px, 0;
+    box-shadow: 0 0 15px 4px rbga(0,0,0,0,0.6) ;
+    border-radius: 10px;
+    border: 2px solid #eee;
+}
+
+input[type=file] {
+    padding: 10px;
+    margin: 10px, 0;
+    box-shadow: 0 0 15px 4px rbga(0,0,0,0,0.6) ;
+    border-radius: 10px;
+    border: 2px solid #eee;
+}
+
+button{
+    background-color: #4caf50 ;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 2px 4px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: green;
+}
